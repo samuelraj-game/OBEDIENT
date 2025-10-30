@@ -6,7 +6,7 @@ label chapter1_download:
         xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
     with fade 
 
-    play music "IntrospectiveBGM.wav" fadein 1.0
+    play music "ChillBGM.mp3" fadein 1.0
 
     n "SCENE: Your cramped studio apartment. Evening. Rain patters against the window. Your laptop screen glows in the dim light."
 
