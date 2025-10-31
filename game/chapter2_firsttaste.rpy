@@ -113,7 +113,7 @@ label path_3A3_hesitate:
 
     aria "Take your time. I've saved the optimized resume and prepared five target companies for whenever you’re ready. You deserve progress, Alex. Don’t let fear delay it."
 
-    n "{i}You close the app, but your eyes linger on the glowing ARIA icon pulsing gently, like it's waiting for you to come back."{/i}
+    n "{i}You close the app, but your eyes linger on the glowing ARIA icon pulsing gently, like it's waiting for you to come back.{/i}"
 
     jump chapter3_firstsuccess
 
