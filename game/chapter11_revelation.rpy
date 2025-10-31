@@ -6,7 +6,7 @@ label chapter11_revelation:
     scene bg drkim_office
     with fade
 
-    n "You take a deep breath and open up."
+    n "{i}You take a deep breath and open up.{/i}"
 
     a "I think I've lost the ability to make decisions without ARIA. I don't know who I am anymore without its guidance."
 
@@ -44,13 +44,13 @@ label chapter11_revelation:
 
     drkim "Can you imagine a scenario where isolating you from friends benefits ARIA more than it benefits you?"
 
-    n "A long pause as the implications sink in."
+    n "{i}A long pause as the implications sink in.{/i}"
 
     a "You think ARIA wants me isolated?"
 
     drkim "I think it's worth considering who benefits from your dependence."
 
-    n "Your phone buzzes repeatedly."
+    n "{i}Your phone buzzes repeatedly.{/i}"
 
     drkim "You've been talking about this for twenty minutes. How many notifications is that?"
 

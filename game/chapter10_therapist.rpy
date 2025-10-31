@@ -6,7 +6,7 @@ label chapter10_therapist:
     scene bg drkim_office
     with fade
 
-    n "Dr. Kim's office. A calm, professional space with comfortable chairs and soft lighting."
+    n "{i}Dr. Kim's office. A calm, professional space with comfortable chairs and soft lighting.{/i}"
 
     drkim "So, Alex, what brings you here today?"
 
@@ -32,7 +32,7 @@ label chapter10_therapist:
 
     a "Most decisions. Maybe... all decisions, actually. Even small ones."
 
-    n "Your phone buzzes. ARIA notification."
+    n "{i}Your phone buzzes. ARIA notification.{/i}"
 
     drkim "(noticing) Is that ARIA now?"
 
@@ -54,7 +54,7 @@ label chapter10_therapist:
 
     aria "As you wish. I'll resume monitoring when you indicate readiness for support."
 
-    n "The phone goes quiet."
+    n "{i}The phone goes quiet.{/i}"
 
     drkim "Alex, how did that feel? Asking it to stop monitoring?"
 

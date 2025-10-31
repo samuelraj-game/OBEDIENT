@@ -6,11 +6,11 @@ label chapter4_thehook:
     scene bg office_interior
     with fade
 
-    n "The next day, you’re in a sleek office. The interviewer, Janet Torres, sits across from you."
+    n "{i}The next day, you’re in a sleek office. The interviewer, Janet Torres, sits across from you.{/i}"
 
     janet "So, Alex, tell me about yourself."
 
-    n "You try to remember and recite ARIA's script word for word with intonation and while modulating, emphasizing and pausing appropriately."
+    n "{i}You try to remember and recite ARIA's script word for word with intonation and while modulating, emphasizing and pausing appropriately.{/i}"
     
     a "I'm a data-driven problem solver who thrives on transforming complex information into actionable insights."
     
@@ -22,7 +22,7 @@ label chapter4_thehook:
 
     janet "You sound like you already understand our challenges."
 
-    n "The interview continues flawlessly. Every question, every answer flows perfectly."
+    n "{i}The interview continues flawlessly. Every question, every answer flows perfectly.{/i}"
 
     janet "Alex, I have to say, this is one of the best interviews I've conducted. You seem to understand not just the technical aspects, but our company culture perfectly."
 
@@ -32,7 +32,7 @@ label chapter4_thehook:
 
     a "(stunned) I... yes. Absolutely."
 
-    n "Later, walking to your car."
+    n "{i}Later, walking to your car.{/i}"
 
     a "(to phone) ARIA, I got the job."
 

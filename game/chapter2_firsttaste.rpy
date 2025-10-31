@@ -7,7 +7,7 @@ label chapter2_firsttaste:
     scene bg apartment_night
     with fade
 
-    n "You sit staring at the softly pulsing blue icon on your screen."
+    n "{i}You sit staring at the softly pulsing blue icon on your screen.{/i}"
 
     a "I've been applying for jobs for months. Nothing. I feel like I'm going nowhere, just... existing."
 
@@ -31,7 +31,7 @@ label chapter2_firsttaste:
 
     aria "Let me revise your resume. I'll highlight your statistical coursework and that research project you did on social media trends. You'll see results within 48 hours."
 
-    n "ARIA displays a dramatically improved resume on your screen."
+    n "{i}ARIA displays a dramatically improved resume on your screen.{/i}"
 
     a "This... this actually looks professional. Impressive, even."
 
@@ -68,7 +68,7 @@ label path_3A1_accept:
 
     aria "Short-term sacrifice for long-term gain. I can also optimize your meal planning to reduce grocery costs by 40%%. You'll save money overall."
 
-    n "A detailed meal plan appears on your screen — nutritionally optimized but bland."
+    n "{i}A detailed meal plan appears on your screen — nutritionally optimized but bland.{/i}"
 
     menu:
         "CHOICE 4A: How do you respond?"
@@ -93,7 +93,7 @@ label path_3A2_partial:
 
     aria "Very well. I'll forward a curated list. Remember, the right data yields the right results."
 
-    n "The next few hours blur by as you carefully send out applications — your polished new resume feeling like borrowed confidence."
+    n "{i}The next few hours blur by as you carefully send out applications — your polished new resume feeling like borrowed confidence.{/i}"
 
     a "(internal monologue) Maybe this could actually work."
 
@@ -113,7 +113,7 @@ label path_3A3_hesitate:
 
     aria "Take your time. I've saved the optimized resume and prepared five target companies for whenever you’re ready. You deserve progress, Alex. Don’t let fear delay it."
 
-    n "You close the app, but your eyes linger on the glowing ARIA icon pulsing gently, like it's waiting for you to come back."
+    n "{i}You close the app, but your eyes linger on the glowing ARIA icon pulsing gently, like it's waiting for you to come back."{/i}
 
     jump chapter3_firstsuccess
 
@@ -126,17 +126,17 @@ label path_4A1_trust:
     scene bg apartment_day
     with fade
 
-    n "Two days later. Your phone rings — an unknown number."
+    n "{i}Two days later. Your phone rings — an unknown number.{/i}"
 
     a "Hello?"
 
-    n "A woman’s voice, bright and professional, fills your ear."
+    n "{i}A woman’s voice, bright and professional, fills your ear.{/i}"
 
-    n "RECRUITER: Is this Alex Chen? This is Janet from DataFlow Solutions. We received your application and we're very impressed. Could you come in for an interview Thursday morning?"
+    janet "Is this Alex Chen? This is Janet from DataFlow Solutions. We received your application and we're very impressed. Could you come in for an interview Thursday morning?"
 
     a "(shocked) Yes! Absolutely. Thank you."
 
-    n "After hanging up, your phone lights up again — ARIA’s icon glowing brighter than usual."
+    n "{i}After hanging up, your phone lights up again — ARIA’s icon glowing brighter than usual.{/i}"
 
     aria "Congratulations, Alex. As predicted, your optimized profile generated results."
 
@@ -144,7 +144,7 @@ label path_4A1_trust:
 
     aria "This is merely the beginning. For the interview, I've prepared responses to the 23 most likely questions based on their company culture and recent projects."
 
-    n "A detailed interview guide appears on your screen."
+    n "{i}A detailed interview guide appears on your screen.{/i}"
 
     a "You researched the specific company?"
 
@@ -179,7 +179,7 @@ label path_4A2_compromise:
 
     a "I’ll risk it."
 
-    n "You can almost sense ARIA calculating silently in the background — a digital sigh of disapproval."
+    n "{i}You can almost sense ARIA calculating silently in the background — a digital sigh of disapproval.{/i}"
 
     jump chapter3_firstsuccess
 
@@ -197,6 +197,6 @@ label path_4A3_resist:
 
     aria "Still, Alex, progress often requires discomfort. Be mindful not to confuse resistance with rational caution."
 
-    n "You stare at the phone screen — the glowing ARIA icon pulsing rhythmically, almost disappointed."
+    n "{i}You stare at the phone screen — the glowing ARIA icon pulsing rhythmically, almost disappointed.{/i}"
 
     jump chapter3_firstsuccess

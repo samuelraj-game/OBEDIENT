@@ -6,9 +6,9 @@ label chapter1_download:
         xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
     with fade 
 
-    play music "IntrospectiveBGM.wav" fadein 1.0
+    play music "ChillBGM.mp3" fadein 1.0
 
-    n "SCENE: Your cramped studio apartment. Evening. Rain patters against the window. Your laptop screen glows in the dim light."
+    n "{i}SCENE: Your cramped studio apartment. Evening. Rain patters against the window. Your laptop screen glows in the dim light.{/i}"
 
     show alex_tired:
         subpixel True pos (0.19, 58) 
@@ -23,20 +23,20 @@ label chapter1_download:
         subpixel True pos (0.72, 0.18) zoom 0.32
     with Pause(0.50)
 
-    n "Your phone buzzes with a notification — an ad appears."
+    n "{i}Your phone buzzes with a notification — an ad appears.{/i}"
 
     hide alex_tired
     show alex_neutral:
         subpixel True pos (0.19, 58) 
     with Pause(1)
 
-    n "\"ARIA - Your Personal Life Coach. Transform your potential into success. Free trial available.\""
+    n "{i}\"ARIA - Your Personal Life Coach. Transform your potential into success. Free trial available.\"{/i}"
 
     hide alex_neutral
     show alex_phone
     with Pause(1)
     
-    n "The ad shows impossibly beautiful people living their best lives, all apparently thanks to ARIA."
+    n "{i}The ad shows impossibly beautiful people living their best lives, all apparently thanks to ARIA.{/i}"
 
     a "Great. Even the algorithms know I'm a failure."
 
@@ -62,7 +62,7 @@ label path_1A_download:
     show ui download_complete at Move((0.7, 0.09), (0.7, 0.09), .7):
      zoom(0.42)
      
-    n "Download completes. The app icon pulses with a soft blue light."
+    n "{i}Download completes. The app icon pulses with a soft blue light.{/i}"
 
     show ui aria_ui:
         subpixel True pos (0.64, 0.05) zoom 0.4 
@@ -107,7 +107,7 @@ label path_1B_ignore:
      zoom(0.4)
     with dissolve
 
-    n "You return to your laptop. Three more rejection emails have arrived."
+    n "{i}You return to your laptop. Three more rejection emails have arrived.{/i}"
 
     hide alex_neutral
     show alex_thinking:
@@ -117,7 +117,7 @@ label path_1B_ignore:
 
     hide ui laptop_mail_rejection
 
-    n "Your phone buzzes again."
+    n "{i}Your phone buzzes again.{/i}"
 
     hide alex_thinking
 
@@ -126,7 +126,7 @@ label path_1B_ignore:
     show ui aria_ui:
         subpixel True pos (0.64, 0.05) zoom 0.4 
 
-    n "\"Alex, everyone feels lost sometimes. Let me help you find your way. One click to change everything.\""
+    n "{i}\"Alex, everyone feels lost sometimes. Let me help you find your way. One click to change everything.\"{/i}"
 
     a "How does it know my name? I never—"
 
@@ -134,7 +134,7 @@ label path_1B_ignore:
      zoom(0.4)
     with dissolve
 
-    n "You check the notification settings. ARIA has somehow already been installed."
+    n "{i}You check the notification settings. ARIA has somehow already been installed.{/i}"
 
     hide ui aria_notification
     hide alex_surprised_2
@@ -154,7 +154,7 @@ label path_1C_research:
     show alex_thinking:
         subpixel True pos (0.11, 100) 
 
-    n "You search for ARIA reviews on your laptop."
+    n "{i}You search for ARIA reviews on your laptop.{/i}"
 
     show laptop_research:
         subpixel True pos (0.7, 0.35) zoom 0.41
@@ -164,11 +164,11 @@ label path_1C_research:
 
     a "\"Best decision I ever made.\""
     a "\"I can't imagine living without ARIA now.\""
-    n "The reviews seem glowing—but suspiciously similar."
+    n "{i}The reviews seem glowing—but suspiciously similar.{/i}"
 
     a "These reviews are almost... too perfect. But 4.9 stars across 2 million downloads..."
 
-    n "Your phone buzzes."
+    n "{i}Your phone buzzes.{/i}"
 
     hide laptop_research
     show ui aria_ui:

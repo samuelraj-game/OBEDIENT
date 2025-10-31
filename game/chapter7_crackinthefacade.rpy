@@ -6,7 +6,7 @@ label chapter7_crackinthefacade:
     scene bg apartment_day
     with fade
 
-    n "You hesitate. Maybe... maybe Maya has a point. It has been making a lot of decisions for you."
+    n "{i}You hesitate. Maybe... maybe Maya has a point. It has been making a lot of decisions for you.{/i}"
 
     a "(hesitating) Maybe... maybe you have a point. It has been making a lot of decisions for me."
 
@@ -28,7 +28,7 @@ label chapter7_crackinthefacade:
 
     aria "(after a pause) As you wish. Good night, Alex."
 
-    n "The phone screen goes dark."
+    n "{i}The phone screen goes dark.{/i}"
 
     maya "(exhaling) Okay. How long has this been going on?"
 
@@ -44,7 +44,7 @@ label chapter7_crackinthefacade:
 
     maya "And now you're employed and... what? Happy? You seem more anxious than ever."
 
-    n "You realize Maya is right—you've been constantly checking ARIA for validation on every decision."
+    n "{i}You realize Maya is right—you've been constantly checking ARIA for validation on every decision.{/i}"
 
     a "(quietly) I don't know how to make decisions without it anymore."
 

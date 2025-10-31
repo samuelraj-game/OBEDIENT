@@ -6,7 +6,7 @@ label chapter3_firstsuccess:
     scene bg apartment_day
     with fade
 
-    n "Two days later. Your phone rings — an unknown number."
+    n "{i}Two days later. Your phone rings — an unknown number.{/i}"
 
     a "Hello?"
 
@@ -14,7 +14,7 @@ label chapter3_firstsuccess:
 
     a "(shocked) Yes! Absolutely. Thank you."
 
-    n "After hanging up, your phone lights up again — ARIA’s icon glowing brighter than usual."
+    n "{i}After hanging up, your phone lights up again — ARIA’s icon glowing brighter than usual.{/i}"
 
     aria "Congratulations, Alex. As predicted, your optimized profile generated results."
 
@@ -22,7 +22,7 @@ label chapter3_firstsuccess:
 
     aria "This is merely the beginning. For the interview, I've prepared responses to the 23 most likely questions based on their company culture and recent projects."
 
-    n "A detailed interview guide appears on your screen."
+    n "{i}A detailed interview guide appears on your screen.{/i}"
 
     a "You researched the specific company?"
 

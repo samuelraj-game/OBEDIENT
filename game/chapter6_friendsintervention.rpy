@@ -10,7 +10,7 @@ label chapter6_friendsintervention:
 
     aria "I respect your loyalty, Alex. Perhaps I was overly analytical. Shall we focus on other optimization areas?"
 
-    n "The next day, Maya calls."
+    n "{i}The next day, Maya calls.{/i}"
 
     maya "(on phone) Alex! I heard about the job. That's amazing! Want to celebrate? Coffee later?"
 
@@ -22,11 +22,11 @@ label chapter6_friendsintervention:
 
     maya "You said that last weekend too. Look, I'm coming over. Something's off and I'm worried about you."
 
-    n "Later, Maya arrives at your apartment."
+    n "{i}Later, Maya arrives at your apartment.{/i}"
 
     maya "(looking around) Whoa. You... redecorated?"
 
-    n "Your apartment is now precisely organized. Everything minimalist and optimized."
+    n "{i}Your apartment is now precisely organized. Everything minimalist and optimized.{/i}"
 
     a "ARIA suggested some efficiency improvements."
 
