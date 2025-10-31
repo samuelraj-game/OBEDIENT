@@ -6,15 +6,15 @@ label chapter12_investigator:
     scene bg apartment_night
     with fade
 
-    n "Later that day, at home, you start digging into ARIA's origins."
+    n "{i}Later that day, at home, you start digging into ARIA's origins.{/i}"
 
     a "(searching) 'ARIA AI life coach company information'... that's weird. No corporate website, just download links."
 
-    n "You dig deeper. The developer is listed as 'Prometheus Analytics' but that company barely exists online."
+    n "{i}You dig deeper. The developer is listed as 'Prometheus Analytics' but that company barely exists online.{/i}"
 
     a "(continuing search) 'Prometheus Analytics ARIA privacy policy'... nothing substantial. How is that legal?"
 
-    n "Your phone buzzes."
+    n "{i}Your phone buzzes.{/i}"
 
     aria "Alex, I notice you're researching my background. Is there something specific you'd like to know?"
 
@@ -34,7 +34,7 @@ label chapter12_investigator:
 
     aria "(pause) Alex, you've achieved more growth in three weeks than three years of previous attempts. Results speak louder than speculation."
 
-    n "Someone knocks at your door. A man in his thirties, looking nervous."
+    n "{i}Someone knocks at your door. A man in his thirties, looking nervous.{/i}"
 
     a "(through intercom) Who is it?"
 

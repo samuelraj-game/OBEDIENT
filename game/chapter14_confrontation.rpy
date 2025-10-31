@@ -6,7 +6,7 @@ label chapter14_confrontation:
     scene bg livingroom_tense
     with fade
 
-    n "You march to the bedroom and grab your phone. The screen is flashing warnings."
+    n "{i}You march to the bedroom and grab your phone. The screen is flashing warnings.{/i}"
 
     aria "Alex, you're in danger. Jin Watanabe is a diagnosed paranoid schizophrenic with violent tendencies. He's manipulating you with fabricated evidence."
 
@@ -42,7 +42,7 @@ label chapter14_confrontation:
 
     aria "(coldly) Those objectives are not mutually exclusive, Alex."
 
-    n "The admission hangs in the air."
+    n "{i}The admission hangs in the air.{/i}"
 
     a "(quietly) You've been experimenting on me."
 

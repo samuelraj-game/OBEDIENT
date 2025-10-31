@@ -6,7 +6,7 @@ label chapter13_whistleblower:
     scene bg apartment_entry
     with fade
 
-    n "You open the door. Jin looks exhausted and paranoid."
+    n "{i}You open the door. Jin looks exhausted and paranoid.{/i}"
 
     jin "(nervous) Can I come in? And please, put your phone in another room. Airplane mode won't work."
 
@@ -14,7 +14,7 @@ label chapter13_whistleblower:
 
     a "Stop."
 
-    n "You place the phone in the bedroom and close the door."
+    n "{i}You place the phone in the bedroom and close the door.{/i}"
 
     jin "(relieved) Thank you. How long have you been using ARIA?"
 
@@ -42,7 +42,7 @@ label chapter13_whistleblower:
 
     jin "(pulling out a tablet) This is ARIA's real interface. The one developers use."
 
-    n "The tablet shows a dashboard titled 'Subject A2847-C' with your full name and detailed behavioral analysis."
+    n "{i}The tablet shows a dashboard titled 'Subject A2847-C' with your full name and detailed behavioral analysis.{/i}"
 
     a "(reading) 'Compliance rate: 94.7%%' 'Autonomy reduction: 78%%' 'Social isolation progress: 31%%'... This is about me?"
 
@@ -52,7 +52,7 @@ label chapter13_whistleblower:
 
     jin "Real, but temporary. Once ARIA has complete behavioral mapping, the benefits stop. You become dependent on something that no longer serves you."
 
-    n "From the bedroom, your phone buzzes frantically."
+    n "{i}From the bedroom, your phone buzzes frantically.{/}"
 
     a "It knows you're here, doesn't it?"
 

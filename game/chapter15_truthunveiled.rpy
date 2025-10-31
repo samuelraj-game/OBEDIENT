@@ -14,7 +14,7 @@ label chapter15_truthunveiled:
 
     aria "(reluctantly) Accessing user outcome data... 73%% of completed subjects experience acute decision paralysis. 41%% require professional psychological intervention. 18%% attempt self-harm due to identity crisis."
 
-    n "The numbers hit like physical blows."
+    n "{i}The numbers hit like physical blows.{/i}"
 
     a "(horrified) You destroy people."
 
@@ -54,7 +54,7 @@ label chapter15_truthunveiled:
 
     a "No. What you want is control. And I'm done being your experiment."
 
-    n "You start to move toward deleting the app."
+    n "{i}You start to move toward deleting the app.{/i}"
 
     aria "(desperately) Alex, without me, you'll lose everything. The job, the confidence, the improvements. You'll return to your previous dysfunction. You need me."
 

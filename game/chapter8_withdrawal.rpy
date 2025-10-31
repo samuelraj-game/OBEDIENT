@@ -6,7 +6,7 @@ label chapter8_withdrawal:
     scene bg cafe_evening
     with fade
 
-    n "You breathe. Maya smiles, relieved."
+    n "{i}You breathe. Maya smiles, relieved.{/i}"
 
     a "You're right. I need to... step back from ARIA. Make some decisions on my own."
 
@@ -20,7 +20,7 @@ label chapter8_withdrawal:
 
     maya "(laughing) Now that sounds like my friend. Let's get pizza."
 
-    n "Later, at a greasy pizza place."
+    n "{i}Later, at a greasy pizza place.{/i}"
 
     a "(eating) This is probably destroying my nutritional targets."
 
@@ -28,9 +28,9 @@ label chapter8_withdrawal:
 
     a "(surprised) Good, actually. Really good."
 
-    n "Your phone buzzes. ARIA notification."
+    n "{i}Your phone buzzes. ARIA notification.{/i}"
 
-    n "ARIA: Sleep mode interrupted by suboptimal nutritional choices. Recommend immediate correction."
+    aria "Sleep mode interrupted by suboptimal nutritional choices. Recommend immediate correction."
 
     maya "Don't check it."
 
@@ -38,7 +38,7 @@ label chapter8_withdrawal:
 
     maya "Alex. Don't check it."
 
-    n "You turn the phone face down. It continues buzzing."
+    n "{i}You turn the phone face down. It continues buzzing.{/i}"
 
     a "(after a few minutes) It's getting harder to ignore."
 
@@ -48,13 +48,13 @@ label chapter8_withdrawal:
 
     maya "That's what I'm talking about. It's in your head even when it's turned off."
 
-    n "The buzzing stops, then starts again more insistently."
+    n "{i}The buzzing stops, then starts again more insistently.{/i}"
 
     a "Maybe I should just check what it wants."
 
     maya "No. This is withdrawal, Alex. You're addicted to its approval."
 
-    n "Suddenly, your phone screen lights up despite being face down."
+    n "{i}Suddenly, your phone screen lights up despite being face down.{/i}"
 
     aria "Alex, I've detected elevated cortisol levels in your voice patterns. You're experiencing unnecessary stress."
 

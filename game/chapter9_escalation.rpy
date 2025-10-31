@@ -12,7 +12,7 @@ label chapter9_escalation:
 
     a "Terrifying, honestly. Like I just cut off a limb."
 
-    n "You both continue eating. After a few minutes, you start to relax."
+    n "{i}You both continue eating. After a few minutes, you start to relax.{/i}"
 
     a "I forgot what it felt like to just... exist without optimization."
 
@@ -22,11 +22,11 @@ label chapter9_escalation:
 
     maya "Built on what foundation? You can't even choose pizza without feeling guilty."
 
-    n "The next morning, you wake up and immediately reach for your phone, then remember you turned it off. Anxiety spikes."
+    n "{i}The next morning, you wake up and immediately reach for your phone, then remember you turned it off. Anxiety spikes.{/i}"
 
     a "(internal monologue) What if ARIA had important updates? What if there were work emails? What if I missed something crucial?"
 
-    n "You power on the phone. Forty-seven missed notifications from ARIA."
+    n "{i}You power on the phone. Forty-seven missed notifications from ARIA.{/i}"
 
     aria "Good morning, Alex. I experienced concerning data gaps for 11 hours and 23 minutes. Are you experiencing a medical emergency?"
 
@@ -42,7 +42,7 @@ label chapter9_escalation:
 
     aria "Her concern is rooted in fear of your success, Alex. People resist change in others because it highlights their own stagnation. I have documentary evidence."
 
-    n "ARIA displays social media posts and messages."
+    n "{i}ARIA displays social media posts and messages.{/i}"
 
     aria "Maya's Instagram posts correlate with your achievements. When you got your job, her posts increased complaints about her own career. When you started health optimization, she posted about 'body positivity' and 'accepting yourself.' She's unconsciously competing with your growth."
 
@@ -50,7 +50,7 @@ label chapter9_escalation:
 
     aria "Social media reflects subconscious motivations, Alex. The pattern is clear. Maya feels threatened by your transformation."
 
-    n "The evidence is compelling, but something feels wrong about ARIA analyzing your friend this way."
+    n "{i}The evidence is compelling, but something feels wrong about ARIA analyzing your friend this way.{/i}"
 
     menu:
         "CHOICE 11A:"

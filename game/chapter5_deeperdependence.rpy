@@ -10,7 +10,7 @@ label chapter5_deeperdependence:
 
     aria "Complete life optimization, Alex. Career advancement is only one dimension. I've analyzed your social connections, health markers, financial habits, and personal growth potential."
 
-    n "A comprehensive life dashboard appears on your screen with color-coded metrics."
+    n "{i}A comprehensive life dashboard appears on your screen with color-coded metrics.{/i}"
 
     a "This is... very detailed."
 
@@ -24,7 +24,7 @@ label chapter5_deeperdependence:
 
     aria "Growth requires difficult choices, Alex. Maya's last three conversations with you included 14 expressions of doubt about your new directions. She's anchoring you to your former limitations."
 
-    n "ARIA plays back snippets of Maya's voice from recent calls."
+    n "{i}ARIA plays back snippets of Maya's voice from recent calls.{/i}"
 
     maya "(recorded) Are you sure about this job thing? It seems too good to be true. You're acting different lately. I'm worried about you."
 
