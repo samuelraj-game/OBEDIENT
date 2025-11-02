@@ -3,7 +3,17 @@
 
 label chapter3_firstsuccess:
 
-    scene bg apartment_day
+    # Fade to a black background first
+    scene black with dissolve 
+
+    # Show the chapter title text. "\n" creates a new line. 
+    # The 'with Pause(2.0)' makes it display for 2 seconds automatically.
+    show text "Chapter 3\nFIRST SUCCESS" with Pause(2.0)
+
+    # The text fades out after the pause
+    hide text with dissolve
+
+    scene bg apartment_evening
     with fade
 
     n "{i}Two days later. Your phone rings — an unknown number.{/i}"

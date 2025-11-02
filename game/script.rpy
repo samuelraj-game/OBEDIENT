@@ -3,9 +3,11 @@ label start:
     call chapter1_download
 
 # Declare background images
+image bg apartment_evening = "images/bg/apartment_evening.png"
 image bg apartment_night = "images/bg/apartment_night.png"
 image bg apartment_day = "images/bg/apartment_day.png"
 image bg apartment_night_dim = "images/bg/apartment_night_dim.png"
+image bg office_interior = "images/bg/office_interior.png"
 
 # Declare ui overlay images
 image ui aria_ad_banner = "images/ui/aria_ad_banner.png"
@@ -18,6 +20,7 @@ image ui laptop_mail_rejection = "images/ui/laptop_mail_rejection.png"
 image ui download_complete = "images/ui/download_complete.png"
 image ui choice_button = "images/ui/choice_button.png"
 image ui laptop_research = "images/ui/laptop_research.png"
+image ui aria_glowing = 'images/ui/aria_glowing.png'
 
 # Declare character portraits
 image alex neutral = "char/alex_neutral.png"
@@ -30,6 +33,7 @@ image alex horrified = "char/alex_horrified.png"
 image alex laptop = "char/alex_laptop_neutral.png"
 image alex anxious = "char/alex_phone_anxious.png"
 image alex phone = "char/alex_phone.png"
+image alex phone_talking = "char/alex_phone_talking.png"
 image alex phonetap = "char/alex_phone_tap.png"
 image alex surprised = "char/alex_surprised.png"
 image alex thoughtful = "char/Alex_Thinking.png"
@@ -39,7 +43,7 @@ image drkim professional = "char/dr_kim_professional.png"
 image drkim surprised = "char/dr_kim_surprised.png"
 image drkim thoughtful = "char/dr_kim_thoughtful.png"
 image janet neutral = "char/janet_neutral.png"
-image janet phone = "char/janet_phone.png"
+image janet phone = "char/janet_phone_smiling.png"
 image janet smiling = "char/janet_smiling.png"
 image janet surprised = "char/janet_surprised.png"
 image janet thoughtful = "char/janet_thoughtful.png"

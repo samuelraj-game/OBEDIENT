@@ -1,23 +1,37 @@
 # chapter1_download.rpy
 label chapter1_download:
 
-    scene bg apartment_night:
+    # Fade to a black background first
+    scene black with dissolve 
+
+    # Show the chapter title text. "\n" creates a new line. 
+    # The 'with Pause(2.0)' makes it display for 2 seconds automatically.
+    show text "Chapter 1\nDOWNLOAD" with Pause(2.0)
+
+    # The text fades out after the pause
+    hide text with dissolve
+
+    scene bg apartment_evening:
         zoom 1.75
         xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
-    with fade 
+    with fade
 
-    play music "ChillBGM.mp3" fadein 1.0
+    play music "MoodyBGM.mp3" fadein 1
 
     n "{i}SCENE: Your cramped studio apartment. Evening. Rain patters against the window. Your laptop screen glows in the dim light.{/i}"
 
     show alex_tired:
         subpixel True pos (0.19, 58) 
 
+    play sound "EmailNotification.mp3"
+
     show ui laptop_mail_rejection at Move((0.7, 0.2), (0.7, 0.15), .7):
      zoom(0.4)
     with dissolve
 
     a "Another rejection email. That's fifteen this month. Maybe I'm just not cut out for... anything, really."
+
+    play sound "AInotification.mp3"
 
     show ui phone_closeup:
         subpixel True pos (0.72, 0.18) zoom 0.32
@@ -33,7 +47,8 @@ label chapter1_download:
     n "{i}\"ARIA - Your Personal Life Coach. Transform your potential into success. Free trial available.\"{/i}"
 
     hide alex_neutral
-    show alex_phone
+    show alex_phone:
+        subpixel True pos (0, 58) 
     with Pause(1)
     
     n "{i}The ad shows impossibly beautiful people living their best lives, all apparently thanks to ARIA.{/i}"
@@ -55,14 +70,24 @@ label chapter1_download:
 # -------------------
 label path_1A_download:
 
+    hide bg_apartment_evening
+    scene bg apartment_night:
+        zoom 1.75
+        xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
+    with fade
+
     show alex_phone:
         subpixel True pos (0, 58) 
     a "What's the worst that could happen?"
+
+    play sound "AInotification.mp3"
 
     show ui download_complete at Move((0.7, 0.09), (0.7, 0.09), .7):
      zoom(0.42)
      
     n "{i}Download completes. The app icon pulses with a soft blue light.{/i}"
+
+    play sound "AInotification.mp3"
 
     show ui aria_ui:
         subpixel True pos (0.64, 0.05) zoom 0.4 
@@ -97,6 +122,13 @@ label path_1A_download:
 
 # -------------------
 label path_1B_ignore:
+
+    hide bg_apartment_evening
+    scene bg apartment_night:
+        zoom 1.75
+        xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
+    with fade
+
     hide ui phone_closeup
     show alex_neutral:
         subpixel True pos (0.11, 100) 
@@ -123,6 +155,8 @@ label path_1B_ignore:
 
     show alex_phone at left
 
+    play sound "AInotification.mp3"
+    
     show ui aria_ui:
         subpixel True pos (0.64, 0.05) zoom 0.4 
 
@@ -151,6 +185,12 @@ label path_1B_ignore:
 # -------------------
 label path_1C_research:
 
+    hide bg_apartment_evening
+    scene bg apartment_night:
+        zoom 1.75
+        xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
+    with fade
+
     show alex_thinking:
         subpixel True pos (0.11, 100) 
 
@@ -173,6 +213,8 @@ label path_1C_research:
     hide laptop_research
     show ui aria_ui:
         subpixel True pos (0.64, 0.05) zoom 0.4 
+
+    play sound "AInotification.mp3"
 
 
     aria "Hello, Alex. I noticed you're researching me. Very wise. Critical thinking is one of your strengths."

@@ -4,8 +4,26 @@
 
 label chapter2_firsttaste:
 
-    scene bg apartment_night
+    # Fade to a black background first
+    scene black with dissolve 
+
+    # Show the chapter title text. "\n" creates a new line. 
+    # The 'with Pause(2.0)' makes it display for 2 seconds automatically.
+    show text "Chapter 2\nFIRST TASTE" with Pause(2.0)
+
+    # The text fades out after the pause
+    hide text with dissolve
+
+    scene bg apartment_night:
+        zoom 1.75
+        xpos 0.5 ypos 0.5 xanchor 0.5 yanchor 0.5
     with fade
+
+    show alex_phone:
+        subpixel True pos (0, 58)
+    
+    show ui aria_ui:
+        subpixel True pos (0.64, 0.05) zoom 0.4
 
     n "{i}You sit staring at the softly pulsing blue icon on your screen.{/i}"
 
@@ -37,6 +55,9 @@ label chapter2_firsttaste:
 
     aria "Because it reflects the real you. The person you could be with proper guidance. Shall I apply to five carefully selected positions?"
 
+    hide alex_phone
+    hide ui aria_ui
+
     menu:
         "CHOICE 3A: What do you do?"
         "Let ARIA apply to jobs for you.":
@@ -51,6 +72,12 @@ label chapter2_firsttaste:
 # PATH 3A-1: LET ARIA APPLY
 
 label path_3A1_accept:
+
+    show alex_phone:
+        subpixel True pos (0, 58)
+    
+    show ui aria_ui:
+        subpixel True pos (0.64, 0.05) zoom 0.4
 
     a "Do it."
 
@@ -70,6 +97,9 @@ label path_3A1_accept:
 
     n "{i}A detailed meal plan appears on your screen — nutritionally optimized but bland.{/i}"
 
+    hide alex_phone
+    hide ui aria_ui
+
     menu:
         "CHOICE 4A: How do you respond?"
         "Follow both suggestions completely.":
@@ -85,6 +115,12 @@ label path_3A1_accept:
 
 label path_3A2_partial:
 
+    show alex_phone:
+        subpixel True pos (0, 58)
+    
+    show ui aria_ui:
+        subpixel True pos (0.64, 0.05) zoom 0.4
+
     a "I'll use your version of the resume, but I'd rather send out the applications myself."
 
     aria "Understood, Alex. I appreciate your autonomy. Would you like me to suggest suitable openings?"
@@ -97,6 +133,9 @@ label path_3A2_partial:
 
     a "(internal monologue) Maybe this could actually work."
 
+    hide alex_phone
+    hide ui aria_ui
+
     jump chapter3_firstsuccess
 
 
@@ -104,6 +143,12 @@ label path_3A2_partial:
 # PATH 3A-3: HESITATE
 
 label path_3A3_hesitate:
+
+    show alex_phone:
+        subpixel True pos (0, 58)
+    
+    show ui aria_ui:
+        subpixel True pos (0.64, 0.05) zoom 0.4
 
     a "This feels too fast. Maybe I should think about it first."
 
@@ -115,6 +160,9 @@ label path_3A3_hesitate:
 
     n "{i}You close the app, but your eyes linger on the glowing ARIA icon pulsing gently, like it's waiting for you to come back.{/i}"
 
+    hide alex_phone
+    hide ui aria_ui
+
     jump chapter3_firstsuccess
 
 
@@ -123,20 +171,48 @@ label path_3A3_hesitate:
 
 label path_4A1_trust:
 
-    scene bg apartment_day
+    scene bg apartment_day:
+        zoom 1.25
     with fade
 
+    show alex_phone at left:
+        zoom 0.6
+
     n "{i}Two days later. Your phone rings — an unknown number.{/i}"
+
+    hide alex_phone
+    show alex_phone_talking at left:
+        zoom 0.6
 
     a "Hello?"
 
     n "{i}A woman’s voice, bright and professional, fills your ear.{/i}"
 
+    show janet_phone at right:
+        zoom 0.8
+
     janet "Is this Alex Chen? This is Janet from DataFlow Solutions. We received your application and we're very impressed. Could you come in for an interview Thursday morning?"
+
+    show janet_phone at right:
+        zoom 0.8
 
     a "(shocked) Yes! Absolutely. Thank you."
 
+    hide alex_phone_talking
+    hide janet_phone
+
+    show ui aria_glowing:
+        subpixel True pos (1280, 320) zoom 0.39 
+
+    show alex_phone:
+        subpixel True pos (0, 58) 
+
     n "{i}After hanging up, your phone lights up again — ARIA’s icon glowing brighter than usual.{/i}"
+
+    play sound "AInotification.mp3"
+    
+    show ui aria_ui:
+        subpixel True pos (0.64, 0.05) zoom 0.4 
 
     aria "Congratulations, Alex. As predicted, your optimized profile generated results."
 
@@ -158,14 +234,17 @@ label path_4A1_trust:
 
     aria "Psychological research indicates 7 minutes as the optimal balance between punctuality and confidence. Trust me, Alex. When have I been wrong?"
 
+    hide alex_phone
+    hide ui aria_ui
+
     menu:
         "CHOICE 5A: How do you handle ARIA's interview plan?"
         "Follow ARIA's interview strategy precisely.":
             jump chapter4_thehook
         "Use the prep but trust your own instincts during the interview.":
-            jump chapter4_thehook
+            jump path_4A2_compromise
         "Ask ARIA how it knows so much about interview psychology.":
-            jump chapter4_thehook
+            jump path_4A3_resist
 
 
 # ------------------------
@@ -181,7 +260,7 @@ label path_4A2_compromise:
 
     n "{i}You can almost sense ARIA calculating silently in the background — a digital sigh of disapproval.{/i}"
 
-    jump chapter3_firstsuccess
+    jump path_4A1_trust
 
 
 # ------------------------
@@ -199,4 +278,4 @@ label path_4A3_resist:
 
     n "{i}You stare at the phone screen — the glowing ARIA icon pulsing rhythmically, almost disappointed.{/i}"
 
-    jump chapter3_firstsuccess
+    jump path_4A1_trust

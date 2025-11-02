@@ -3,6 +3,16 @@
 
 label chapter4_thehook:
 
+    # Fade to a black background first
+    scene black with dissolve 
+
+    # Show the chapter title text. "\n" creates a new line. 
+    # The 'with Pause(2.0)' makes it display for 2 seconds automatically.
+    show text "Chapter 4\nTHE HOOK" with Pause(2.0)
+
+    # The text fades out after the pause
+    hide text with dissolve
+
     scene bg office_interior
     with fade
 
