@@ -355,7 +355,11 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add gui.main_menu_background:
+        xysize (config.screen_width, config.screen_height)
+        fit "cover" # This will scale and crop the image to cover the full screen
+        # Alternatively, use fit "contain" to ensure the entire image is shown, potentially with black bars
+
 
     ## This empty frame darkens the main menu.
     frame:
